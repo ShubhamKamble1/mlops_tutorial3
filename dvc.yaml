@@ -22,6 +22,3 @@ stages:
     metrics:
     - metrics.json:
         cache: false
-    plots:
-    - by_region.png:
-        cache: false
