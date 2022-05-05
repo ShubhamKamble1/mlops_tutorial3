@@ -18,7 +18,10 @@ stages:
     - train.py
     - data_processed.csv
     outs:
-    - by_region.png 
+    - by_region.png
     metrics:
     - metrics.json:
+        cache: false
+    plots:
+    - by_region.png:
         cache: false
